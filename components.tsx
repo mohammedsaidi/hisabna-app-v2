@@ -19,28 +19,28 @@ export const Icon = ({ name, className }: { name: string, className?: string }) 
     reports: <><line x1="18" y1="20" x2="18" y2="10" /><line x1="12" y1="20" x2="12" y2="4" /><line x1="6" y1="20" x2="6" y2="14" /></>,
     debts: <><rect width="20" height="14" x="2" y="5" rx="2" /><line x1="2" x2="22" y1="10" y2="10" /></>,
     subscriptions: <><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M22 21v-2a4 4 0 0 0-3-3.87" /><path d="M16 3.13a4 4 0 0 1 0 7.75" /></>,
-    settings: <path d="M12.22 2h-.44a2 2 0 00-2 2v.18a2 2 0 01-1 1.73l-.43.25a2 2 0 01-2 0l-.15-.08a2 2 0 00-2.73.73l-.22.38a2 2 0 00.73 2.73l.15.1a2 2 0 010 2l-.15.08a2 2 0 00-.73 2.73l.22.38a2 2 0 002.73.73l.15-.08a2 2 0 012 0l.43.25a2 2 0 011 1.73V20a2 2 0 002 2h.44a2 2 0 002-2v-.18a2 2 0 011-1.73l.43-.25a2 2 0 012 0l.15.08a2 2 0 002.73-.73l-.22-.38a2 2 0 00-.73-2.73l-.15-.08a2 2 0 010 2l.15.08a2 2 0 00.73-2.73l-.22-.38a2 2 0 00-2.73-.73l-.15.08a2 2 0 01-2 0l-.43-.25a2 2 0 01-1-1.73V4a2 2 0 00-2-2z" /><circle cx="12" cy="12" r="3" />,
-    logout: <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4" /><polyline points="16 17 21 12 16 7" /><line x1="21" y1="12" x2="9" y2="12" />,
-    sun: <circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m4.93 17.66 1.41-1.41" /><path d="m17.66 4.93 1.41 1.41" />,
+    settings: <><path d="M12.22 2h-.44a2 2 0 00-2 2v.18a2 2 0 01-1 1.73l-.43.25a2 2 0 01-2 0l-.15-.08a2 2 0 00-2.73.73l-.22.38a2 2 0 00.73 2.73l.15.1a2 2 0 010 2l-.15.08a2 2 0 00-.73 2.73l.22.38a2 2 0 002.73.73l.15-.08a2 2 0 012 0l.43.25a2 2 0 011 1.73V20a2 2 0 002 2h.44a2 2 0 002-2v-.18a2 2 0 011-1.73l.43-.25a2 2 0 012 0l.15.08a2 2 0 002.73-.73l-.22-.38a2 2 0 00-.73-2.73l-.15-.08a2 2 0 010 2l.15.08a2 2 0 00.73-2.73l-.22-.38a2 2 0 00-2.73-.73l-.15.08a2 2 0 01-2 0l-.43-.25a2 2 0 01-1-1.73V4a2 2 0 00-2-2z" /><circle cx="12" cy="12" r="3" /></>,
+    logout: <><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4" /><polyline points="16 17 21 12 16 7" /><line x1="21" y1="12" x2="9" y2="12" /></>,
+    sun: <><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m4.93 17.66 1.41-1.41" /><path d="m17.66 4.93 1.41 1.41" /></>,
     moon: <path d="M12 3a6 6 0 009 9 9 9 0 11-9-9z" />,
-    plus: <path d="M5 12h14" /><path d="M12 5v14" />,
+    plus: <><path d="M5 12h14" /><path d="M12 5v14" /></>,
     edit: <path d="M17 3a2.85 2.85 0 114 4L7.5 20.5 2 22l1.5-5.5Z" />,
-    trash: <path d="M3 6h18" /><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" /><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" />,
-    x: <path d="M18 6L6 18" /><path d="M6 6l12 12" />,
-    income: <path d="M12 19V5" /><path d="m5 12 7-7 7 7" />,
-    expense: <path d="M12 5v14" /><path d="m19 12-7 7-7-7" />,
+    trash: <><path d="M3 6h18" /><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6" /><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2" /></>,
+    x: <><path d="M18 6L6 18" /><path d="M6 6l12 12" /></>,
+    income: <><path d="M12 19V5" /><path d="m5 12 7-7 7 7" /></>,
+    expense: <><path d="M12 5v14" /><path d="m19 12-7 7-7-7" /></>,
     chevronUp: <path d="m18 15-6-6-6-6" />,
     chevronDown: <path d="m6 9 6 6 6-6" />,
     chevronLeft: <path d="m15 18-6-6 6-6" />,
-    calendar: <path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" />,
-    alert: <path d="m21.73 18-8-14a2 2 0 00-3.46 0l-8 14A2 2 0 004 21h16a2 2 0 001.73-3z" /><path d="M12 9v4" /><path d="M12 17h.01" />,
+    calendar: <><path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /></>,
+    alert: <><path d="m21.73 18-8-14a2 2 0 00-3.46 0l-8 14A2 2 0 004 21h16a2 2 0 001.73-3z" /><path d="M12 9v4" /><path d="M12 17h.01" /></>,
     check: <path d="M20 6L9 17l-5-5" />,
-    info: <circle cx="12" cy="12" r="10" /><path d="M12 16v-4" /><path d="M12 8h.01" />,
-    ai: <path d="M9.5 3A2.5 2.5 0 0112 5.5V7" /><path d="M14.5 3A2.5 2.5 0 0012 5.5V7" /><path d="M12 7v3.52a2.5 2.5 0 01-2.5 2.5h-1A2.5 2.5 0 016 10.52V9" /><path d="M18 9v1.52A2.5 2.5 0 0115.5 13h-1a2.5 2.5 0 01-2.5-2.5V7" /><path d="M12 7h.01" /><path d="M17.5 13A2.5 2.5 0 0115 15.5V17" /><path d="M6.5 13A2.5 2.5 0 009 15.5V17" /><path d="M12 17v3.52a2.5 2.5 0 01-2.5 2.5h-1A2.5 2.5 0 016 20.52V19" /><path d="M18 19v1.52A2.5 2.5 0 0115.5 24h-1a2.5 2.5 0 01-2.5-2.5V17" /><path d="M12 17h.01" />,
-    camera: <path d="M14.5 4h-5L7 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2h-3l-2.5-3z" /><circle cx="12" cy="13" r="3" />,
-    print: <path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2" /><path d="M6 9V3a1 1 0 011-1h10a1 1 0 011 1v6" /><rect x="6" y="14" width="12" height="8" rx="1" />,
-    archive: <path d="M21 8v11a2 2 0 01-2 2H5a2 2 0 01-2-2V8" /><path d="M10 12h4" /><path d="M21 3H3v5h18z" />,
-    file: <path d="M15 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V7Z" /><path d="M14 2v4a2 2 0 002 2h4" />,
+    info: <><circle cx="12" cy="12" r="10" /><path d="M12 16v-4" /><path d="M12 8h.01" /></>,
+    ai: <><path d="M9.5 3A2.5 2.5 0 0112 5.5V7" /><path d="M14.5 3A2.5 2.5 0 0012 5.5V7" /><path d="M12 7v3.52a2.5 2.5 0 01-2.5 2.5h-1A2.5 2.5 0 016 10.52V9" /><path d="M18 9v1.52A2.5 2.5 0 0115.5 13h-1a2.5 2.5 0 01-2.5-2.5V7" /><path d="M12 7h.01" /><path d="M17.5 13A2.5 2.5 0 0115 15.5V17" /><path d="M6.5 13A2.5 2.5 0 009 15.5V17" /><path d="M12 17v3.52a2.5 2.5 0 01-2.5 2.5h-1A2.5 2.5 0 016 20.52V19" /><path d="M18 19v1.52A2.5 2.5 0 0115.5 24h-1a2.5 2.5 0 01-2.5-2.5V17" /><path d="M12 17h.01" /></>,
+    camera: <><path d="M14.5 4h-5L7 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2h-3l-2.5-3z" /><circle cx="12" cy="13" r="3" /></>,
+    print: <><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2" /><path d="M6 9V3a1 1 0 011-1h10a1 1 0 011 1v6" /><rect x="6" y="14" width="12" height="8" rx="1" /></>,
+    archive: <><path d="M21 8v11a2 2 0 01-2 2H5a2 2 0 01-2-2V8" /><path d="M10 12h4" /><path d="M21 3H3v5h18z" /></>,
+    file: <><path d="M15 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V7Z" /><path d="M14 2v4a2 2 0 002 2h4" /></>,
     bookmark: <><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line></>,
     'book-open': <><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></>,
     menu: <><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></>,
@@ -598,7 +598,7 @@ export const DashboardPage = () => {
   };
 
   const handleConfirmSubPaymentClick = (sub: Subscription) => {
-    setConfirmSubPaymentModal({ isOpen: true, sub });
+    setConfirmSubPaymentModal({ isOpen: true, sub: null });
   };
   
   const handleConfirmSubPayment = () => {
