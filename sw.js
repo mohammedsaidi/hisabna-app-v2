@@ -1,10 +1,12 @@
-const CACHE_NAME = 'hesabna-cache-v2';
+const CACHE_NAME = 'hesabna-cache-v3';
 const urlsToCache = [
   '/',
   '/index.html',
   '/index.tsx',
   '/manifest.json',
   '/icon.svg',
+  '/icon-192.png',
+  '/icon-512.png',
   'https://cdn.tailwindcss.com',
   'https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap'
 ];
