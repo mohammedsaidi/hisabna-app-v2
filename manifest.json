@@ -1,0 +1,28 @@
+{
+  "name": "حسابنا - مدير المال الشخصي",
+  "short_name": "حسابنا",
+  "description": "تطبيق ويب شامل لإدارة الشؤون المالية الشخصية، مصمم مع التركيز على الخصوصية (تخزين محلي)، واجهة عربية كاملة، ويعمل بدون اتصال بالإنترنت مع ميزات ذكية اختيارية عبر الإنترنت.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#14b8a6",
+  "background_color": "#f8fafc",
+  "lang": "ar",
+  "dir": "rtl"
+}
